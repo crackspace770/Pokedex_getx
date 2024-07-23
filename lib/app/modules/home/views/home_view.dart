@@ -19,7 +19,12 @@ class _HomeViewState extends State<HomeView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('POKEDEX'),
+        title: const Text('POKEDEX',
+        style: TextStyle(
+          color: Colors.white
+        ),
+        ),
+        backgroundColor: Colors.red,
         centerTitle: true,
       ),
       body: Obx(
